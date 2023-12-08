@@ -1,0 +1,21 @@
+.oldal1th{
+    background-color: gray;
+}
+.oldal1header{
+    text-align: center;
+}
+.tablazatoldal1{
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+table{
+    width: 50%;
+    height: 15vh;
+}
+td{
+    border: 1px solid gray;
+}
+.keptd{
+    width: 100px;
+}
