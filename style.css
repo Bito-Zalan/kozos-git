@@ -26,6 +26,7 @@
     grid-area: nav;
     background-color: rgb(86, 85, 149);
     padding: 10px;
+    text-align: center;
 }
 .footer2 {
     grid-area: footer;
@@ -111,4 +112,15 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     width: 150px;
+}
+
+@media (max-width: 768px) {
+    .main2 {
+        grid-template-areas: 
+        'header'
+        'nav'
+        'article'
+        'footer';
+        grid-template-columns: 1fr;
+    }
 }
