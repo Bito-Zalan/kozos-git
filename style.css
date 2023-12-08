@@ -1,202 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main2 {
     display: grid;
     grid-template-areas: 
@@ -206,6 +7,7 @@
     grid-template-rows: auto;
     grid-template-columns: 3fr 1fr;
     gap: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 header {
     grid-area: header;
@@ -233,5 +35,25 @@ header {
     text-align: center;
 }
 .table2 {
-    
+}
+.oldal1th{
+    background-color: gray;
+}
+.oldal1header{
+    text-align: center;
+}
+.tablazatoldal1{
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+table{
+    width: 50%;
+    height: 15vh;
+}
+.table1 td{
+    border: 1px solid gray;
+}
+.keptd{
+    width: 100px;
 }
