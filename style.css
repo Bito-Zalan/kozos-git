@@ -1,3 +1,12 @@
+.oldal1{
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'article nav'
+    'foote footer'; */
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+}
 .oldal1th{
     background-color: gray;
 }
@@ -18,4 +27,19 @@ td{
 }
 .keptd{
     width: 100px;
+}
+.nevtd{
+    width: 150px;
+}
+.gyartastd{
+    width: 90px;
+}
+p{
+    color: white;
+}
+.szintdrs7{
+    background-color: rgb(21, 21, 143);
+}
+nav{
+    display: grid;
 }
