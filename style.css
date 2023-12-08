@@ -74,4 +74,8 @@ p{
 }
 .table2 {
     width: auto;
+    border: 1px solid grey;
+}
+td {
+    border: 1px solid grey;
 }
