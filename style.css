@@ -9,7 +9,7 @@
     gap: 10px;
     font-family: 'Roboto', Arial, sans-serif;
 }
-header {
+.header2 {
     grid-area: header;
     background-color: red;
     padding: 10px;
@@ -57,3 +57,10 @@ table{
 .keptd{
     width: 100px;
 }
+.nav2 ul {
+    list-style-type: none;
+}
+.article2 ul li {
+    background-color: aqua;
+}
+
