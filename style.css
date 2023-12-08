@@ -85,13 +85,30 @@ li{
     list-style: none;
 }
 a{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
     color: white;
-}
-ul{
 }
 .table2 {
     width: auto;
+    border: 1px solid grey;
+}
+td {
+    border: 1px solid grey;
+    color: white;
+}
+button:hover {
+    background-color: green;
+    color: black;
+}
+button {
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 150px;
 }
