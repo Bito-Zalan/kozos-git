@@ -1,11 +1,3 @@
-.oldal1{
-    display: grid;
-    grid-template-areas:
-    'header header'
-    'article nav'
-    'foote footer'; */
-    grid-template-rows: auto;
-    grid-template-columns: repeat(2, 1fr);
 .main2 {
     display: grid;
     grid-template-areas: 
@@ -56,7 +48,7 @@ header {
     padding-top: 30px;
 }
 table{
-    width: 50%;
+    width: 100%;
     height: 15vh;
 }
 .table1 td{
@@ -77,6 +69,25 @@ p{
 .szintdrs7{
     background-color: rgb(21, 21, 143);
 }
-nav{
-    display: grid;
+.szintdurus{
+    background-color: rgb(170, 231, 1);
+}
+.szintdamg{
+    background-color: black;
+}
+.szintdchiron{
+    background-color: aqua;
+}
+.footerp{
+    color: black;
+    text-align: center;
+    background-color: ;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+}
+ul{
 }
