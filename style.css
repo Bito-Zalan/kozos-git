@@ -1,3 +1,11 @@
+.oldal1{
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'article nav'
+    'foote footer'; */
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
 .main2 {
     display: grid;
     grid-template-areas: 
@@ -57,6 +65,7 @@ table{
 .keptd{
     width: 100px;
 }
+<<<<<<< HEAD
 .nav2 ul {
     list-style-type: none;
 }
@@ -64,3 +73,20 @@ table{
     background-color: aqua;
 }
 
+=======
+.nevtd{
+    width: 150px;
+}
+.gyartastd{
+    width: 90px;
+}
+p{
+    color: white;
+}
+.szintdrs7{
+    background-color: rgb(21, 21, 143);
+}
+nav{
+    display: grid;
+}
+>>>>>>> 2b461c3671e8c0d8daeb32462377b22faba3b57e
